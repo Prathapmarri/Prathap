@@ -1,0 +1,370 @@
+/*navbar styling start*/
+
+#nvbr{
+    z-index: 1;
+    background-color: transparent;
+}
+
+.navbaritem{
+    padding: 0 20px;
+}
+.navitemlist{
+    margin-left: 32%;
+}
+#navbarhead{
+    color: rgb(165, 47, 66);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    font-weight: bolder;
+    
+
+}
+#navsubhd{
+    color: rgb(165, 47, 66);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.navbaritem:hover{
+    border-bottom-style: solid;
+    border-color: white;
+    transform: scale(1.2);
+}
+.darkbtn{
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    background-color:black;
+    box-shadow: 2px 2px 10px black;
+}
+/*navbar end*/
+
+
+/*section start*/
+
+.profile-section {
+    justify-content: space-evenly;
+    align-items: center; 
+    text-align: center; /* Center text for better mobile viewing */
+}
+
+
+.profilepic{
+    width: 38rem;
+    height: 36rem;
+    filter: contrast(120%);
+    filter: drop-shadow(5px 5px 20px rgb(189, 144, 186));
+    border-radius: 50%;
+    margin-top: 4%;
+    
+}
+.profilepicdiv{
+    text-align: center;
+}
+.indextext{
+    position: relative; /* Use relative positioning for better control */
+    margin: 1rem 0; /* Add margins for spacing */
+    text-align: left;
+    padding-left: 10%;
+}
+.hello{
+    color: rgb(165, 47, 66);
+    font-family: "Lucida Handwriting", cursive;
+    font-size: 3.5rem;
+    filter: drop-shadow(1px 1px 5px rgb(189, 144, 186));
+}
+.hello1{
+    color: white;
+    font-size: 3.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: fit-content;
+    animation: typing 2s steps(30, end), backspace 2s steps(30, end) 2s, typing 2s steps(30, end) 2s infinite;
+    
+}
+@keyframes typing {
+    from { width: 15%; }
+    to { width: 100%; }
+}
+
+@keyframes backspace {
+    from { width: 100%; }
+    to { width: 15%; }
+}
+
+
+.hello2{
+    color: rgb(165, 47, 66);
+    font-size: 3rem;
+    font-family: "Lucida Handwriting";  
+    filter: drop-shadow(1px 1px 5px rgb(206, 98, 157));
+}
+
+
+
+
+
+/*section end*/
+
+.bg-img{             /*header style*/
+    background-image: linear-gradient(150deg,pink,rgb(238, 236, 236), rgb(231, 230, 230), pink,rgb(232, 231, 231),pink);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/*row1 starting*/
+
+.aboutdiv{
+    padding: 20px;
+    border-top-right-radius: 50px;
+    border-width: 1px;
+    box-shadow: 1px 1px 7px rgb(165, 47, 66);
+}
+.knownskills{
+    text-align: center;
+    padding: 20px;
+}
+.hirebtn{
+    width: 10%;
+    border-style: none;
+    color: white;
+    background-color: rgb(165, 47, 66);
+    border-radius: 5px;
+    animation: breathe 2s infinite;
+}
+@keyframes breathe {
+    0%, 100% {
+        transform: scale(1); /* Initial and final size */
+    }
+    50% {
+        transform: scale(1.1); /* Scale up */
+    }
+}
+.hirebtn:hover {
+    background-color: #2980b9; /* Darker shade on hover */
+}
+.details{
+    text-align: center;
+    padding: 20px;
+}
+.row1subclm {
+    display: flex;
+    flex-direction: column; /* Align elements vertically */
+    align-items: center;    /* Horizontally center all children */
+    justify-content: center; /* Vertically center all children */
+}
+.blue{
+    color: rgb(165, 47, 66);
+    font-family: Cambria;
+    font-weight: bolder;
+}
+.white{
+    color: rgb(158, 111, 141);
+    font-weight: lighter;
+
+}
+.time{
+    color: rgb(150, 193, 236);
+    font-weight: bolder;
+}
+
+
+
+ 
+
+/*row1 end*/
+
+/* row2 starts*/
+
+.row2subclm {
+    display: flex;
+    flex-direction: column; /* Align elements vertically */
+    align-items: center;    /* Horizontally center all children */
+    justify-content: center; /* Vertically center all children */
+}
+
+.btech {
+
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 80%;    
+    box-shadow: 1px 1px 2px rgb(165, 47, 66);
+}
+.time, h5, h6, p {
+    margin: 5px 0;
+}
+.skilllogo{
+    width: 4%;
+    height: 4%;
+}
+.teamlogo{
+    width: 4%;
+    height: 4%;
+    margin-top: 6%;
+}
+
+/* row2 end*/
+
+
+
+/* row3 start   */
+.row3clm{
+    text-align: center;
+}
+.textfield{
+    width: 76%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom-style: solid;
+    border-color: rgb(165, 47, 66);
+    color: rgb(12, 10, 10);
+    box-shadow: 1px 1px 3px rgb(165, 47, 66);
+
+}
+.touchdiv{
+
+    border-color: white;
+    margin: 0 25% 0 25%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 10px rgb(156, 88, 99);
+      
+}
+::placeholder{
+    color: white;
+}
+.sendbtn{
+    width: 77%;
+    border-radius: 5px;
+    background-color: rgb(165, 47, 66);
+    color: white;
+    border-style: none;
+}
+/*row3 end*/
+
+
+/* contact page--------------------start*/
+
+
+.subclm{
+    box-shadow: 1px 1px 2px rgb(165, 47, 66);
+    padding: 20px;
+    border-radius: 20px;
+   
+
+}
+.hirebtn1{
+    width: 20%;
+    border-style: none;
+    color: white;
+    background-color: rgb(165, 47, 66);
+    border-radius: 5px;
+    animation: breathe 2s infinite;
+}
+.mymap{
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+/*contact page end*/
+
+
+
+/* Media Queries for Smaller Screens */
+@media (max-width: 768px) {
+    .navitemlist {
+        margin-left: 0; /* Remove left margin on mobile */
+        text-align: center; /* Center items on mobile */
+    }
+
+    #navbarhead {
+        margin-left: 0; /* Remove margin on mobile */
+        text-align: center; /* Center the navbar brand */
+        width: 50%; /* Take full width */
+        transform: scale(0.8);
+    }
+
+    .navbaritem {
+        padding: 10px; /* Reduce padding for mobile items */
+    }
+
+    .lightbtn {
+        margin-top: 10px; /* Add some margin above the button */
+    }
+    .profile-section{
+        flex-direction: column;
+    }
+
+
+    .hello,
+    .hello1,
+    .hello2 {
+        font-size: 2rem;
+        text-align: center; /* Smaller font size for tablets */
+    }
+
+    .profilepic {
+        order: 1;
+        width: 40vw;
+        height: 20vh; /* Reduce profile picture size for tablets */
+    }
+    .hirebtn{
+        width: 40%;
+    }
+    .btech{
+        width: 100%;
+    }
+    .clm1row05{
+        order: 2;
+    }
+    .skillclm{
+        order: 1;
+    }
+    .projectclm{
+        order: 2;
+    }
+
+    .touchdiv{
+        width: 100%;
+        margin: 0;
+    }
+    .textfield{
+        width: 100%;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 480px) {
+    .navbaritem {
+        padding: 5px; /* Further reduce padding for very small screens */
+    }
+
+    #navbarhead {
+        font-size: 1.5rem; /* Reduce font size for very small screens */
+    }
+
+    #navsubhd {
+        font-size: 1rem; /* Further reduce link font size */
+    }
+
+
+    .hello,
+    .hello1,
+    .hello2 {
+        font-size: 1.5rem;
+        text-align: center; /* Even smaller font size for mobile */
+    }
+
+    .profilepic {
+        max-width: 12rem; /* Reduce profile picture size for phones */
+    }
+}
